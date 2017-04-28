@@ -1,0 +1,37 @@
+{
+  "name": "meli-api",
+  "author": "Juan Pablo Ferrari <ferrarijuanp@gmail.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp",
+    "start": "node app.js",
+    "debug": "node debug app.js",
+    "test": "standard"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "boom": "^4.2.0",
+    "fs": "0.0.2",
+    "hapi": "^15.2.0",
+    "hapi-api-version": "^1.0.2",
+    "hapi-auth-bearer-token": "^4.3.1",
+    "hapi-cors": "^1.0.1",
+    "hapi-io": "0.1.0",
+    "hapi-swagger": "^7.4.0",
+    "inert": "^4.0.0",
+    "joi": "^10.0.1",
+    "joi-date-extensions": "^1.0.1",
+    "js-base64": "^2.1.9",
+    "lodash": "^4.14.2",
+    "moment": "^2.15.0",
+    "moment-timezone": "^0.5.11",
+    "q": "^1.4.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.72.0",
+    "rotating-file-stream": "^1.0.5",
+    "vision": "^4.1.0",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.1.1"
+  },
+  "devDependencies": {}
+}
