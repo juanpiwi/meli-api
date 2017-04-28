@@ -10,7 +10,7 @@ module.exports = {
 
     return results.map(result => {
       const { id, title, price, currency_id, thumbnail, condition, shipping } = result
-      let dtoCondition = 'No especificado'
+      let dtoCondition
 
       switch (condition) {
         case 'new':
@@ -18,8 +18,9 @@ module.exports = {
           break
         case 'used':
           dtoCondition = 'Usado'
+          break
         default:
-          dtoCondition
+          dtoCondition = 'No especificado'
       }
 
       return {

@@ -2,7 +2,7 @@
 
 exports.conf = {
   environment: 'Local',
-  appName: 'Autos API',
+  appName: 'Meli API',
   server: '0.0.0.0',
   port: 3003,
   apiRootPath: '/meli-api',
