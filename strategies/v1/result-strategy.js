@@ -1,5 +1,6 @@
 'use strict'
 
+const Config = require('../../config').conf.author
 const _ = require('lodash')
 
 module.exports = {
@@ -23,8 +24,8 @@ module.exports = {
 
       return {
         author: {
-          name: 'Juan Pablo',
-          lastname: 'Ferrari'
+          name: Config.name,
+          lastname: Config.lastname
         },
         categories,
         items: {

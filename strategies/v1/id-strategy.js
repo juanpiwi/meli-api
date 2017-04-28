@@ -1,5 +1,6 @@
 'use strict'
 
+const Config = require('../../config').conf.author
 const _ = require('lodash')
 
 module.exports = {
@@ -7,8 +8,8 @@ module.exports = {
     const { id, title, price, currency_id, pictures, condition, shipping, sold_quantity } = response.item
     return {
       author: {
-        name: 'Juan Pablo',
-        lastname: 'Ferrari'
+        name: Config.name,
+        lastname: Config.lastname
       },
       item: {
         id,

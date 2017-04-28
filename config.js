@@ -6,6 +6,10 @@ exports.conf = {
   server: '0.0.0.0',
   port: 3003,
   apiRootPath: '/meli-api',
+  author: {
+    name: 'Juan Pablo',
+    lastname: 'Ferrari'
+  },
   swagger: {
     documentationPath: '/meli-api/documentation',
     uiPath: '/meli-api/swaggerui/',
