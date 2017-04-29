@@ -11,7 +11,6 @@ module.exports = {
     return results.map(result => {
       const { id, title, price, currency_id, thumbnail, condition, shipping } = result
       let dtoCondition
-
       switch (condition) {
         case 'new':
           dtoCondition = 'Nuevo'
@@ -22,7 +21,6 @@ module.exports = {
         default:
           dtoCondition = 'No especificado'
       }
-
       return {
         author: {
           name: Config.name,
@@ -35,7 +33,7 @@ module.exports = {
           price: {
             currency: currency_id,
             amount: (price % 1 === 0) ? price : Math.floor(price),
-            decimals: (price % 1 === 0 ) ? 0 : Math.round(( price % 1 ) * 100) / 100
+            decimals: (price % 1 === 0) ? 0 : Math.round((price % 1) * 100) / 100
           },
           picture: thumbnail,
           condition: dtoCondition,

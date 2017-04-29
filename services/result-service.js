@@ -49,7 +49,7 @@ module.exports = {
       return BluebirdPromise.reject(err.body)
     })
   },
-  getDescription: payload => {    
+  getDescription: payload => {
     let options = {
       method: 'GET',
       uri: `${Config.meli.url}/items/${payload}/description`,

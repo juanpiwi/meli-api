@@ -27,7 +27,6 @@ module.exports = {
       ])
       .then(results => {
         const [ item, description ] = results
-      
         ProcessRequestStrategy.version('v1')
         ProcessRequestStrategy.strategy('id-strategy')
 

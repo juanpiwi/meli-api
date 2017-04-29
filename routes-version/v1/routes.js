@@ -3,9 +3,8 @@
 const BaseJoi = require('joi')
 const Extension = require('joi-date-extensions')
 const Joi = BaseJoi.extend(Extension)
-const Moment = require('moment-timezone')
 const Config = require('../../config').conf
-const ResultHandler = require ('../../handlers/v1/result-handler')
+const ResultHandler = require('../../handlers/v1/result-handler')
 
 module.exports = [{
   method: 'GET',
