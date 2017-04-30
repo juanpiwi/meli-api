@@ -1,5 +1,5 @@
-#Mercado Libre API
-NodeJS con Hapi
+##Mercado Libre API
+- NodeJS con Hapi
 
 ## Tecnologías utilizadas
 - [NodeJS](https://nodejs.org)
@@ -13,13 +13,13 @@ NodeJS con Hapi
 ## Requirimientos
 Para ejecutar y trabajar en este proyecto es necesario tener instalado lo siguiente:
 - [Node.js](http://nodejs.org/) >= v7.0.0
-- [npm](https://www.npmjs.org/) o [Yarn]https://yarnpkg.com/en/docs/install
--
+- [npm](https://www.npmjs.org/) o [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## Instalación
 1. En la terminal ingresar los siguientes comandos
 - cd `meli-api`
 - `npm install` o `yarn install`
 - `npm start` o `yarn start` - Para modo desarrollo
-2. Ingresar a http://localhost:3003/meli-api/keep-alive en el Browser
-3. Ingresar a http://localhost:3003/meli-api/documentation para ver documentación con Swagger e ingresar Bearer a4811fx8e88a6x11c78g en el `api_key`
+2. Ingresar a http://localhost:3003/meli-api/keep-alive
+3. Ingresar a http://localhost:3003/meli-api/documentation para ver documentación con Swagger
+4. Ingresar `Bearer a4811fx8e88a6x11c78g` en el `api_key`
